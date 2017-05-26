@@ -1,0 +1,8 @@
+[18-May-2017 16:01:34 America/New_York] PHP Parse error:  syntax error, unexpected 'mostrar' (T_STRING), expecting ',' or ';' in /home/elux23/public_html/nprogramacion/index.php on line 747
+[19-May-2017 14:39:40 America/New_York] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/elux23/public_html/nprogramacion/mostrarprogramacion2.php on line 146
+[19-May-2017 14:42:33 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/elux23/public_html/nprogramacion/mostrarprogramacion2.php on line 206
+[19-May-2017 15:12:20 America/New_York] PHP Parse error:  syntax error, unexpected '1' (T_LNUMBER), expecting ',' or ';' in /home/elux23/public_html/nprogramacion/index.php on line 733
+[19-May-2017 15:12:31 America/New_York] PHP Parse error:  syntax error, unexpected '1' (T_LNUMBER), expecting ',' or ';' in /home/elux23/public_html/nprogramacion/index.php on line 733
+[25-May-2017 10:16:35 America/New_York] PHP Parse error:  syntax error, unexpected '(', expecting ',' or ';' in /home/elux23/public_html/programacion/index.php on line 1439
+[25-May-2017 10:17:00 America/New_York] PHP Parse error:  syntax error, unexpected '$mostrador' (T_VARIABLE) in /home/elux23/public_html/programacion/index.php on line 1439
+[25-May-2017 10:17:04 America/New_York] PHP Parse error:  syntax error, unexpected '$mostrador' (T_VARIABLE) in /home/elux23/public_html/programacion/index.php on line 1439

@@ -1,0 +1,809 @@
+body{
+	font-size: 14px;
+	font-style: normal;
+    font-weight: 400;
+}
+
+/* slider */
+.slider {
+	position: relative;
+	z-index: 1;
+	padding: 0;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	width: 930px;
+		
+}
+.camera_wrap {
+	margin-bottom: 2px !important;
+	margin-top: 2px;
+	
+}
+.camera_thumb {
+  width: 100px;
+  height: auto;
+}
+.camera_wrap .camera_pag {
+  position: relative;
+  bottom: 40px;
+  left: 50%;
+  margin-left: -465px;
+  z-index: 1;
+}
+.camera_wrap .camera_pag .camera_pag_ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.camera_wrap .camera_pag .camera_pag_ul li > span {
+  display: none;
+}
+.camera_wrap .camera_pag .camera_pag_ul li {
+  background: #000000;
+  width: 16px;
+  height: 16px;
+  display: block;
+  float: left;
+  margin-right: 6px;
+  cursor: pointer;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+.camera_wrap .camera_pag .camera_pag_ul li:hover {
+  background: #373737;
+}
+.camera_wrap .camera_pag .camera_pag_ul li.cameracurrent {
+  background: #373737;
+  cursor: default;
+}
+.camera_caption {
+  display: none;
+}
+
+.fondo {
+
+	background:url(../img/fondo-negro.png);
+	}
+.img-responsive{
+	display: block;
+    max-width: 100%!important;
+	height: auto;
+	width: 369px!important;
+}
+.navbar{
+	
+	background-color: #152d40;
+	font-family: Futura Lt BT;
+	font-size: 25px;
+	font-weight: bold;
+	color: #000000;
+	margin-top: 5px;
+	align-content: center;
+	
+}
+
+#contenido{
+	padding-top: 120px;
+	padding-bottom: 60px;
+}
+
+.publicidad{
+	font-size: 10px;
+	color: aliceblue;
+		
+}
+
+.icon-bar{
+	background-color: #FFFFFF;
+	margin-top: 10px;
+	padding: 2px 10px 2px 10px;
+
+}
+
+.navbar-nav > li > a {
+    margin: 25px 10px 15px 10px;
+	padding-top: 30px;
+    padding-bottom: 10px;
+	color: #fff;
+}
+
+.footer{
+	background-color: #ffffff;
+	margin-top: 30px;
+}
+.footer .logo{
+	margin-top: 15px; 
+}
+
+.footer .menu > li > a,
+.footer .copy > h5{
+	color: #9f9f9f;
+	padding: 2px 2px 2px 2px;
+	font-weight: bold;
+}
+
+.redes{
+ float: left;
+ margin-top: 10px;
+}
+
+.titulo1{
+	color:#9FE3FF;
+	font-weight: bold;
+	position: relative;
+	margin-top: 5px;
+}
+
+.titulo2{
+	color: aliceblue;
+	font-weight: bold;
+	position: relative;
+	margin-top: 5px; 
+	
+}
+
+.container > table,.row > table{
+	text-align: left;
+	background: url(../img/mod_EstasViendo.png);
+	margin-bottom: 10px; 
+}
+
+.video{
+	border: solid;
+	border-width: medium;
+	border-color: aliceblue;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.fondosinopsis{
+	background: url(../img/fondoSinopsis.jpg) top center no-repeat;
+	float: right;
+	background-attachment: inherit;
+	background-size: cover;
+	margin-top: 10px;
+}
+
+.fondosinopsis > h3{
+	font-weight: bold;
+	color: aliceblue;
+	margin-top: 30px;
+	margin-left: 40px;
+}
+.titulo3{
+	color: #00314C;
+	font-weight: 900;
+	position: relative;
+	margin: 20px 15px 25px 20px; 
+}
+
+.fondosinopsis > h5{
+	font-weight: bold;
+	font-size: 15px;
+	color: #00314C;
+	text-align: justify;
+	margin: 15px 60px auto 60px;
+	
+}
+
+.fondoficha{
+	background: url(../img/fondoTecnica.jpg) top center no-repeat;
+	float: right;
+	margin-top: 5px;
+	background-attachment: inherit;
+	background-size: cover;	
+}
+
+.fondoficha > table{
+	background: none;
+	color: #287d7d;
+	font-size: 18px;
+	height: 150px;
+	margin: 5px 25px 5px 10px;
+		
+}
+.ficharesponsive{
+	background: #9e9e9e;
+	float: left;
+	margin-top: 5px;
+}
+.ficharesponsive > table{
+	background: none;
+	color: #287d7d;
+	font-size: 18px;
+	margin: 5px;
+}
+
+.trailer1{
+	background:url(http://www.canaldhe.com/templates/canaldhe/otrasPeliculas/regresoacoldmountain.jpg) top left;
+background-size: cover;
+	background-attachment: inherit;
+	padding: 50px 80px 90px 80px;
+	margin: 5px;
+}
+
+.trailer2{
+	background:url(http://www.canaldhe.com/templates/canaldhe/otrasPeliculas/enellimitedelamor.jpg) top left;
+background-size: cover;
+	background-attachment: inherit;
+	padding: 50px 80px 90px 80px;
+	margin: 5px;
+}
+.trailer3{
+	background:url(http://www.canaldhe.com/templates/canaldhe/otrasPeliculas/losnueves.jpg) top left;
+background-size: cover;
+	background-attachment: inherit;
+	padding: 50px 80px 90px 80px;
+	margin: 5px;
+}
+.trailer4{
+	background:url(http://www.canaldhe.com/templates/canaldhe/otrasPeliculas/yoykaminski.jpg) top left;
+	background-size: cover;
+	background-attachment: inherit;
+	padding: 50px 80px 90px 80px;
+	margin: 5px;
+}
+
+.trailer4 > img, 
+.trailer3 > img, 
+.trailer2 > img,
+.trailer1 > img {
+	
+	padding: 50px 80px 90px 50px;
+}
+
+.contenedor{
+	border: solid;
+	border-width: medium;
+	border-color: aliceblue;
+	background-color: aliceblue;
+	margin-bottom: 10px;
+}
+
+.miniaturas{
+	padding: 5px 3px;
+}
+   
+.modal-content{
+	background: url(http://www.canaldhe.com/images/fondoFull.png) top left no-repeat;
+	background-size: cover;
+	background-attachment: inherit;
+	border: 10px solid;
+	border-color: #152d40;
+}
+@media (max-width: 767px){
+	.modal-content{
+	background: url(http://www.canaldhe.com/images/fondoSmall.png) top left no-repeat;
+	background-size: cover;
+	background-attachment: inherit;
+	border: 10px solid;
+	border-color: #152d40;
+}
+	.table-responsive{
+		border: none!important;
+	}
+}
+
+.detalle{
+	float: left;
+}
+
+.detalletitulo{
+	text-align: center;
+	font-weight: bold;
+}
+
+.detallesubtitulo{
+	float: left;
+	padding: 5px;
+}
+
+.detallesinopsis{
+	float: left;
+	padding: 5px;
+	text-align: justify;
+}
+
+.detallepeli > table{
+	background: none;
+	float: left;
+}
+
+.imgslideshow2{
+	padding: 5px 5px;
+	margin: 5px 5px;
+}
+
+.modalvideo{
+	position: relative;
+    margin-bottom: 20px;
+    padding-top: 56.25%;
+	
+}
+
+.modalvideo iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 90%;
+	border: solid 10px;
+	border-color: aliceblue;
+}
+
+  .affix {
+      top: 20px;
+  }
+.programacion{
+	border : solid 2px #00314C;
+	background:rgba(67,76,90,1);background:-moz-linear-gradient(left,rgba(67,76,90,1) 0%,rgba(37,46,54,1) 100%);background:-webkit-gradient(left top,right top,color-stop(0%,rgba(67,76,90,1)),color-stop(100%,rgba(37,46,54,1)));background:-webkit-linear-gradient(left,rgba(67,76,90,1) 0%,rgba(37,46,54,1) 100%);background:-o-linear-gradient(left,rgba(67,76,90,1) 0%,rgba(37,46,54,1) 100%);background:-ms-linear-gradient(left,rgba(67,76,90,1) 0%,rgba(37,46,54,1) 100%);background:linear-gradient(to right,rgba(67,76,90,1) 0%,rgba(37,46,54,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b6593d',endColorstr='#761a13',GradientType=1);
+    color : #ffffff;
+    padding: 5px;
+    width : 100%;
+    height : auto;
+    overflow : auto;
+	float: right; 
+	overflow-x: hidden;
+}
+
+.progbuttons{
+	float: left;
+	margin-left: 0px;
+	
+}
+
+.botonm{
+	background: #252e36;
+display: inline-block;
+padding: 3px 12px;
+margin-bottom: 4px;
+font-size: 14px;
+font-weight: normal;
+line-height: 1.42857143;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+-ms-touch-action: manipulation;
+touch-action: manipulation;
+cursor: pointer;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+background-image: none;
+border: 1px solid #434c5a;
+border-radius: 4px;
+color: #fff;
+	transform: skew(-10deg);
+}
+
+.botonm:hover {
+	background: #b6593d;
+display: inline-block;
+padding: 3px 12px;
+margin-bottom: 4px;
+font-size: 14px;
+font-weight: normal;
+line-height: 1.42857143;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+-ms-touch-action: manipulation;
+touch-action: manipulation;
+cursor: pointer;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+background-image: none;
+border: 1px solid #434c5a;
+border-radius: 4px;
+color: #fff;
+	transform: skew(-10deg);
+	
+}
+
+.botonm:active,
+.botonm.active{
+	background: #b6593d;
+display: inline-block;
+padding: 3px 12px;
+margin-bottom: 4px;
+font-size: 14px;
+font-weight: normal;
+line-height: 1.42857143;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+-ms-touch-action: manipulation;
+touch-action: manipulation;
+cursor: pointer;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+background-image: none;
+border: 1px solid #434c5a;
+border-radius: 4px;
+color: #fff;
+	transform: skew(-10deg);
+
+}
+
+.botonm:focus,
+.botonm.focus{
+	background: #761a13;
+display: inline-block;
+padding: 3px 12px;
+margin-bottom: 4px;
+font-size: 14px;
+font-weight: normal;
+line-height: 1.42857143;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+-ms-touch-action: manipulation;
+touch-action: manipulation;
+cursor: pointer;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+background-image: none;
+border: 1px solid #434c5a;
+border-radius: 4px;
+color: #fff;
+	transform: skew(-10deg);
+
+}
+
+.Menu_lunes{background-image:url(../img/botonLunes1.png); position:relative;width: 93px;height: 43px; z-index:10;}
+.Menu_lunes:hover{background-image:url(../img/botonLunes2.png);position:relative;width: 93px;height: 43px; z-index:10;}
+.Menu_martes{background-image:url(../img/botonMartes1.png);position:relative;width: 93px;height: 43px; z-index:9;}
+.Menu_martes:hover{background-image:url(../img/botonMartes2.png);position:relative;width: 93px;height: 43px; z-index:10;}
+.Menu_miercoles{background-image:url(../img/botonMiercoles1.png);width: 105px;height: 43px; position:relative; z-index:8;}
+.Menu_miercoles:hover{background-image:url(../img/botonMiercoles2.png);width:105px;height: 43px; position:relative; z-index:8;}
+.Menu_jueves{background-image:url(../img/botonJueves1.png);width:93px;height: 43px; position:relative; z-index:7;}
+.Menu_jueves:hover{background-image:url(../img/botonJueves2.png); width:93px;height: 43px; position:relative; z-index:7;}
+.Menu_viernes{background-image:url(../img/botonViernes1.png);width:93px;height: 43px; position:relative; z-index:6;}
+.Menu_viernes:hover{background-image:url(../img/botonViernes2.png);width:93px;height: 43px; position:relative; z-index:6;}
+.Menu_sabado{background-image:url(../img/botonSabado1.png); width:93px;height: 43px; position:relative; z-index:5;}
+.Menu_sabado:hover{background-image:url(../img/botonSabado2.png);width:325px;width:93px;height: 43px; position:relative; z-index:5;}
+.Menu_domingo{background-image:url(../img/botonDomingo1.png); width:93px;height: 43px; position:relative; z-index:4;}
+.Menu_domingo:hover{background-image:url(../img/botonDomingo2.png); width:93px;height: 43px; position:relative; z-index:4;}
+
+.estasviendo{
+	float:left; 
+	/*background: url(http://www.canaldhe.com/templates/canaldhe/images/estasViendo.jpg) top center no-repeat;  */
+	margin-left:2px; 
+	background-size: cover;
+	background-attachment: inherit;   
+	color:#fff;
+	width: 99.4%;
+	background:rgba(182,89,61,1);background:-moz-linear-gradient(left,rgba(182,89,61,1) 0%,rgba(118,26,19,1) 100%);background:-webkit-gradient(left top,right top,color-stop(0%,rgba(182,89,61,1)),color-stop(100%,rgba(118,26,19,1)));background:-webkit-linear-gradient(left,rgba(182,89,61,1) 0%,rgba(118,26,19,1) 100%);background:-o-linear-gradient(left,rgba(182,89,61,1) 0%,rgba(118,26,19,1) 100%);background:-ms-linear-gradient(left,rgba(182,89,61,1) 0%,rgba(118,26,19,1) 100%);background:linear-gradient(to right,rgba(182,89,61,1) 0%,rgba(118,26,19,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b6593d',endColorstr='#761a13',GradientType=1);
+	border-bottom: 0px;
+}
+
+.fondoprog >table{
+	float:left; 
+	background-color:transparent;  
+	background-size: cover;
+	background-attachment: inherit; 
+	color:#fff;
+}
+
+.letraprog{
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+}
+
+.imagenprog{
+	float: left; 
+	margin-left: 10px; 
+	margin-top:7px;
+}
+
+
+.tablaprog{
+	text-align: center;
+	margin-bottom: 2px; 
+}
+
+.progbuttons button {
+ border-radius: 5px;
+ box-sizing: border-box;
+background-color: transparent;
+ border: none;
+}
+
+@-webkit-keyframes hvr-wobble-top {
+  16.65% {
+    -webkit-transform: skew(-12deg);
+    transform: skew(-12deg);
+  }
+  33.3% {
+    -webkit-transform: skew(10deg);
+    transform: skew(10deg);
+  }
+  49.95% {
+    -webkit-transform: skew(-6deg);
+    transform: skew(-6deg);
+  }
+  66.6% {
+    -webkit-transform: skew(4deg);
+    transform: skew(4deg);
+  }
+  83.25% {
+    -webkit-transform: skew(-2deg);
+    transform: skew(-2deg);
+  }
+  100% {
+    -webkit-transform: skew(0);
+    transform: skew(0);
+  }
+}
+@keyframes hvr-wobble-top {
+  16.65% {
+    -webkit-transform: skew(-12deg);
+    transform: skew(-12deg);
+  }
+  33.3% {
+    -webkit-transform: skew(10deg);
+    transform: skew(10deg);
+  }
+  49.95% {
+    -webkit-transform: skew(-6deg);
+    transform: skew(-6deg);
+  }
+  66.6% {
+    -webkit-transform: skew(4deg);
+    transform: skew(4deg);
+  }
+  83.25% {
+    -webkit-transform: skew(-2deg);
+    transform: skew(-2deg);
+  }
+  100% {
+    -webkit-transform: skew(0);
+    transform: skew(0);
+  }
+}
+.hvr-wobble-top {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+.hvr-wobble-top:hover, .hvr-wobble-top:focus, .hvr-wobble-top:active {
+  -webkit-animation-name: hvr-wobble-top;
+  animation-name: hvr-wobble-top;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+.diactualprog{
+	position:absolute;
+	z-index:999; 
+	margin-top: -8px; 
+	background-position:10px -38px; 
+	width: 250px; 
+	height:45px; 
+}
+.diactual{
+	margin-top: 10px; 
+	margin-left: 45px; 
+	text-align: center; 
+	color:#FFF; 
+	float: right;
+	width:125px;
+	transform: skew(-10deg);
+    margin: 9px 6px;
+    border-radius: 2px;
+    background: rgba(237,208,23,1);
+    background: -moz-linear-gradient(left,rgba(237,208,23,1) 0%,rgba(233,139,22,1) 100%);
+    background: -webkit-gradient(left top,right top,color-stop(0%,rgba(237,208,23,1)),color-stop(100%,rgba(233,139,22,1)));
+    background: -webkit-linear-gradient(left,rgba(237,208,23,1) 0%,rgba(233,139,22,1) 100%);
+    background: -o-linear-gradient(left,rgba(237,208,23,1) 0%,rgba(233,139,22,1) 100%);
+    background: -ms-linear-gradient(left,rgba(237,208,23,1) 0%,rgba(233,139,22,1) 100%);
+    background: linear-gradient(to right,rgba(237,208,23,1) 0%,rgba(233,139,22,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#edd017',endColorstr='#e98b16',GradientType=1);
+    border-top: 2px solid #e98d16;
+    border-bottom: 2px solid #edca17;
+    border-left: 2px solid #e98d16;
+    border-right: 2px solid #edca17;
+}
+.detalleresponsive{
+		background: #F1E9E9;
+	}
+
+/*---------------------------------para pantallas pequeñas--------------*/
+
+@media screen and (max-width:600px){  
+ 	
+	.navbar{
+	
+	background-color: #152d40;
+	font-family: Futura Lt BT;
+	font-size: 15px;
+	font-weight: bold;
+	color: #000000;
+	margin-top: 0px;
+	align-content: center;
+	
+}
+	
+	.icon-bar{
+	background-color: #FFFFFF;
+	margin-top: 0px;
+	padding: 2px 10px 2px 10px;
+
+}
+
+.navbar-nav > li > a {
+    margin: 25px 10px 15px 10px;
+	padding-top: 10px;
+    padding-bottom: 10px;
+	color: #fff;
+}
+
+.footer .logo{
+	margin-top: 5px; 
+}
+
+.footer .menu > li > a,
+.footer .copy > h5{
+	color: #9f9f9f;
+	padding: 2px 2px 2px 2px;
+	font-weight: bold;
+}
+
+.redes{
+ float: left;
+ margin-top: 0px;
+}
+
+.titulo1{
+	color:#9FE3FF;
+	font-weight: bold;
+	position: relative;
+	font-size: 16px;
+	margin-top: 5px;
+}
+
+.titulo2{
+	color: aliceblue;
+	font-weight: bold;
+	font-size: 16px;
+	position: relative;
+	margin-top: 5px; 
+	
+}
+
+.trailer1{
+	background:url(http://www.canaldhe.com/templates/canaldhe/otrasPeliculas/regresoacoldmountain.jpg) top left;
+background-size: cover;
+	padding: 50px 80px 90px 80px;
+	margin: 5px;
+}
+
+.trailer2{
+	background:url(http://www.canaldhe.com/templates/canaldhe/otrasPeliculas/enellimitedelamor.jpg) top left;
+background-size: cover;
+	padding: 50px 80px 90px 80px;
+	margin: 5px;
+}
+.trailer3{
+	background:url(http://www.canaldhe.com/templates/canaldhe/otrasPeliculas/losnueves.jpg) top left;
+background-size: cover;
+	padding: 50px 80px 90px 80px;
+	margin: 5px;
+}
+.trailer4{
+	background:url(http://www.canaldhe.com/templates/canaldhe/otrasPeliculas/yoykaminski.jpg) top left;
+	background-size: cover;
+	background-attachment: inherit;
+	padding: 50px 80px 90px 80px;
+	margin: 5px;
+}
+
+.contenedor{
+	border: solid;
+	border-width: medium;
+	border-color: transparent;
+	background-color: transparent;
+	margin-bottom: 10px;
+}
+
+.miniaturas{
+	padding: 5px 3px;
+}
+   
+
+.detalle{
+	float: left;
+}
+
+.detalletitulo{
+	text-align: center;
+	font-weight: bold;
+}
+
+.detallesubtitulo{
+	float: left;
+	padding: 5px;
+}
+
+.detallesinopsis{
+	float: left;
+	padding: 5px;
+	text-align: justify;
+}
+
+.detallepeli > table{
+	background: none;
+	float: left;
+}
+	
+	.letraprog{
+	float: left;
+	font-size:12px; 
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+		
+	}
+
+  
+.programacion{
+	border : solid 2px #00314C;
+	background:rgba(67,76,90,1);background:-moz-linear-gradient(left,rgba(67,76,90,1) 0%,rgba(37,46,54,1) 100%);background:-webkit-gradient(left top,right top,color-stop(0%,rgba(67,76,90,1)),color-stop(100%,rgba(37,46,54,1)));background:-webkit-linear-gradient(left,rgba(67,76,90,1) 0%,rgba(37,46,54,1) 100%);background:-o-linear-gradient(left,rgba(67,76,90,1) 0%,rgba(37,46,54,1) 100%);background:-ms-linear-gradient(left,rgba(67,76,90,1) 0%,rgba(37,46,54,1) 100%);background:linear-gradient(to right,rgba(67,76,90,1) 0%,rgba(37,46,54,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b6593d',endColorstr='#761a13',GradientType=1);
+    color : #ffffff;
+    padding: 5px;
+    width : 100%;
+    height : auto;
+    overflow : auto;
+	float: right; 
+}	
+.estasviendo{
+	float:left; 
+	background:rgba(182,89,61,1);background:-moz-linear-gradient(left,rgba(182,89,61,1) 0%,rgba(118,26,19,1) 100%);background:-webkit-gradient(left top,right top,color-stop(0%,rgba(182,89,61,1)),color-stop(100%,rgba(118,26,19,1)));background:-webkit-linear-gradient(left,rgba(182,89,61,1) 0%,rgba(118,26,19,1) 100%);background:-o-linear-gradient(left,rgba(182,89,61,1) 0%,rgba(118,26,19,1) 100%);background:-ms-linear-gradient(left,rgba(182,89,61,1) 0%,rgba(118,26,19,1) 100%);background:linear-gradient(to right,rgba(182,89,61,1) 0%,rgba(118,26,19,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b6593d',endColorstr='#761a13',GradientType=1); 
+	margin-left:1px;
+	color:#fff;
+	text-decoration: none;
+}
+	
+.diactualprog{
+	position:absolute;
+	margin-left: 0px;
+	z-index:999; 
+	margin-top: -8px;  
+	background-position:10px -38px; 
+	width: 250px; 
+	height:45px; 
+}
+.diactual{
+	margin-top: 10px; 
+	margin-left: 10px; 
+	text-align: center; 
+	color:#FFF; 
+	width:125px;
+}	
+
+	.detalleresponsive{
+		background: #F1E9E9;
+	}
+	
+	
+}
