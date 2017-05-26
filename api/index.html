@@ -1,0 +1,251 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Canal DHE</title>
+<link href="jquery-mobile/jquery.mobile.theme-1.3.0.min.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="jquery-mobile/jquery.mobile.structure-1.3.0.min.css" rel="stylesheet" type="text/css">
+<script src="jquery-mobile/jquery-1.11.1.min.js"></script>
+<script src="jquery-mobile/jquery.mobile-1.3.0.min.js"></script>
+<script src="js/slider.js"></script>
+</head>
+
+<body>
+<div data-role="page" id="home" style="background-image: url('img/tenemos-que-hablar-de-kevin.jpg'); background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%;"
+    data-theme="a">
+  <div data-role="header" data-position="fixed" class="center-button">
+    <img src="img/logo-dhe.png" class="ui-li-icon">
+  </div>
+  <div data-role="content">
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#peliculas"><div><img src="img/movie.png" class="ui-li-icon"></div>Trailers</a></li>
+        <li><a href="#calendario"><div><img src="img/calendario.png" class="ui-li-icon"></div>Calendario</a></li>
+        <li><a href="#top"><div><img src="img/estrella.png" class="ui-li-icon"></div>Top 8</a></li>
+        <li><a href="#noticias"><div><img src="img/new.png" class="ui-li-icon"></div>Noticias</a></li>
+        <li><a href="#social"><div><img src="img/social.png" class="ui-li-icon"></div>Social</a></li>
+      </ul>
+    
+    </div>
+  </div>
+</div>
+<div data-role="page" id="peliculas" style="background-image: url('img/fondo.png'); background-attachment: fixed; background-repeat: repeat;" data-theme="a">
+  <div data-role="header" data-position="fixed">
+   <a href="#generos" data-role="button" data-transition="flip">Género</a>
+    <h1>Trailers</h1>
+    <a href="#buscar" data-role="button" data-icon="search" data-iconpos="notext" data-transition="flip">Button</a>
+  </div>
+  <div data-role="content">
+  	
+  	<div class="ui-grid-b">
+	<div class="ui-block-a">
+	<div><img src="img/poster/7.jpg" class="ui-li-icon"></div>
+	<p class="centerl"><a href="#pelicula1">Todo para un bebé</a></p></div>
+	<div class="ui-block-b">
+	<div><img src="img/poster/1.jpg" class="ui-li-icon"></div>
+	<p class="centerl">La venganza del jinete</p></div>
+	<div class="ui-block-c">
+	<div><img src="img/poster/2.jpg" class="ui-li-icon"></div>
+	<p class="centerl">Suegra al ataque</p></div>
+</div><!-- /grid-b -->
+ 	
+ 	<div class="ui-grid-b">
+	<div class="ui-block-a">
+	<div><img src="img/poster/8.jpg" class="ui-li-icon"></div>
+	
+	<p class="centerl">Del crepúsculo al amanecer - ep 4</p></div>
+	<div class="ui-block-b">
+	<div><img src="img/poster/3.jpg" class="ui-li-icon"></div>
+	<p class="centerl">Tenemos que hablar de kevin</p></div>
+	<div class="ui-block-c">
+	<div><img src="img/poster/4.jpg" class="ui-li-icon"></div>
+	<p class="centerl">Los hombres del soul</p></div>
+</div><!-- /grid-b -->
+ 	
+ 	<div class="ui-grid-b">
+	<div class="ui-block-a">
+	<div><img src="img/poster/5.jpg" class="ui-li-icon"></div>
+	<p class="centerl">Réplicas</p></div>
+	<div class="ui-block-b">
+	<div><img src="img/poster/6.jpg" class="ui-li-icon"></div>
+	<p class="centerl">Samuri x: el fin de la leyenda</p>
+
+</div>
+	<div class="ui-block-c"></div>
+</div><!-- /grid-b -->
+ 	
+  	
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#peliculas"><div><img src="img/movie.png" class="ui-li-icon"></div>Trailers</a></li>
+        <li><a href="#calendario"><div><img src="img/calendario.png" class="ui-li-icon"></div>Calendario</a></li>
+        <li><a href="#top"><div><img src="img/estrella.png" class="ui-li-icon"></div>Top 8</a></li>
+        <li><a href="#noticias"><div><img src="img/new.png" class="ui-li-icon"></div>Noticias</a></li>
+        <li><a href="#social"><div><img src="img/social.png" class="ui-li-icon"></div>Social</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div data-role="page" id="buscar" style="background-image: url('img/fondo.png'); background-attachment: fixed; background-repeat: repeat;" data-theme="a">
+  <div data-role="header" data-position="fixed">
+   <a data-direction="reverse" href="#home" data-role="button" data-icon="back" data-iconpos="notext" data-transition="flip">Button</a>
+    <h1>Buscar</h1>
+  </div>
+  <div data-role="content">
+  	<ul data-role="listview" data-filter="true" class="ui-listview">
+  	  <li><a href="#pelicula1">Todo para un bebé</a></li>
+	  <li><a href="#">La venganza del jinete</a></li>
+      <li><a href="#">Suegra al ataque</a></li>
+      <li><a href="#">Del crepúsculo al amanecer - ep 4</a></li>
+      <li><a href="#">Tenemos que hablar de kevin</a></li>
+      <li><a href="#">Los hombres del soul</a></li>
+      <li><a href="#">Samuri x: el fin de la leyenda</a></li>
+			</ul>
+  	
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#peliculas"><div><img src="img/movie.png" class="ui-li-icon"></div>Trailers</a></li>
+        <li><a href="#calendario"><div><img src="img/calendario.png" class="ui-li-icon"></div>Calendario</a></li>
+        <li><a href="#top"><div><img src="img/estrella.png" class="ui-li-icon"></div>Top 8</a></li>
+        <li><a href="#noticias"><div><img src="img/new.png" class="ui-li-icon"></div>Noticias</a></li>
+        <li><a href="#social"><div><img src="img/social.png" class="ui-li-icon"></div>Social</a></li>
+      </ul>
+    
+    </div>
+  </div>
+</div>
+
+
+<div data-role="page" id="pelicula1" style="background-image: url('img/fondo.png'); background-attachment: fixed; background-repeat: repeat;"
+    data-theme="a">
+  <div data-role="header" data-position="fixed">
+   <a data-direction="reverse" href="#home" data-role="button" data-icon="back" data-iconpos="notext" data-transition="flip">Button</a>
+    <h1>Todo para un bebé</h1>
+  </div>
+  <div data-role="content"  style="padding: 0;margin: 0;">
+	<img src="img/todo-para-un-bebe.jpg" class="cimagen">
+   <div data-role="controlgroup" data-type="horizontal" class="center">
+<a href="#pelicula1" data-role="button">Detalles</a>
+<a href="#" data-role="button">Compartir</a>
+</div>
+</div>
+<div class="contenido">
+    <h3>Todo para un bebé</h3>
+    <p class="parrafo">Tras varios intentos fallidos para dejar embarazada a su mujer, un hombre pide a sus amigos que roben el depósito de esperma que años dejó en un banco de donaciones de esperma.</p>
+    <h3>Trailer</h3>
+    
+    <a href="#popupVideo" data-rel="popup" data-position-to="window" data-role="button" data-theme="b" data-inline="true" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" aria-haspopup="true" aria-owns="#popupVideo" class="ui-btn ui-shadow ui-btn-corner-all ui-btn-inline ui-btn-up-a"><span class="ui-btn-inner ui-btn-corner-all"><span class="ui-btn-text"><img src="img/social.png" class="ui-li-icon"></span></span></a>
+    <div data-role="popup" id="popupVideo" data-overlay-theme="a" data-theme="d" data-tolerance="15,15" class="ui-content">
+
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/AHa-uDZUKLQ" frameborder="0" allowfullscreen></iframe>
+	 
+</div>
+    
+ </div>
+  <div data-role="footer" data-position="fixed">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#peliculas"><div><img src="img/movie.png" class="ui-li-icon"></div>Trailers</a></li>
+        <li><a href="#calendario"><div><img src="img/calendario.png" class="ui-li-icon"></div>Calendario</a></li>
+        <li><a href="#top"><div><img src="img/estrella.png" class="ui-li-icon"></div>Top 8</a></li>
+        <li><a href="#noticias"><div><img src="img/new.png" class="ui-li-icon"></div>Noticias</a></li>
+        <li><a href="#social"><div><img src="img/social.png" class="ui-li-icon"></div>Social</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+<div data-role="page" id="calendario" style="background-image: url('img/fondo.png'); background-attachment: fixed; background-repeat: repeat;"
+    data-theme="a">
+  <div data-role="header" data-position="fixed">
+   <a data-direction="reverse" href="#home" data-role="button" data-icon="back" data-iconpos="notext" data-transition="flip">Button</a>
+    <h1>Calendario</h1>
+  </div>
+  <div data-role="content">Contenido</div>
+  <div data-role="footer" data-position="fixed">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#peliculas"><div><img src="img/movie.png" class="ui-li-icon"></div>Trailers</a></li>
+        <li><a href="#calendario"><div><img src="img/calendario.png" class="ui-li-icon"></div>Calendario</a></li>
+        <li><a href="#top"><div><img src="img/estrella.png" class="ui-li-icon"></div>Top 8</a></li>
+        <li><a href="#noticias"><div><img src="img/new.png" class="ui-li-icon"></div>Noticias</a></li>
+        <li><a href="#social"><div><img src="img/social.png" class="ui-li-icon"></div>Social</a></li>
+      </ul>
+    
+    </div>
+  </div>
+</div>
+<div data-role="page" id="top">
+  <div data-role="header" data-position="fixed">
+   <a href="#home" data-direction="reverse" data-role="button" data-icon="back" data-iconpos="notext" data-transition="flip">Button</a>
+    <h1>Top 8</h1>
+  </div>
+  <div data-role="content">Contenido</div>
+  <div data-role="footer" data-position="fixed">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#peliculas"><div><img src="img/movie.png" class="ui-li-icon"></div>Trailers</a></li>
+        <li><a href="#calendario"><div><img src="img/calendario.png" class="ui-li-icon"></div>Calendario</a></li>
+        <li><a href="#top"><div><img src="img/estrella.png" class="ui-li-icon"></div>Top 8</a></li>
+        <li><a href="#noticias"><div><img src="img/new.png" class="ui-li-icon"></div>Noticias</a></li>
+        <li><a href="#social"><div><img src="img/social.png" class="ui-li-icon"></div>Social</a></li>
+      </ul>
+    
+    </div>
+  </div>
+</div>
+<div data-role="page" id="noticias" style="background-image: url('img/fondo.png'); background-attachment: fixed; background-repeat: repeat;" data-theme="a">
+  <div data-role="header" data-position="fixed">
+   <a href="#home" data-direction="reverse" data-role="button" data-icon="back" data-iconpos="notext" data-transition="flip">Button</a>
+    <h1>Noticias</h1>
+  </div>
+  <div data-role="content">Contenido</div>
+  <div data-role="footer" data-position="fixed">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#peliculas"><div><img src="img/movie.png" class="ui-li-icon"></div>Trailers</a></li>
+        <li><a href="#calendario"><div><img src="img/calendario.png" class="ui-li-icon"></div>Calendario</a></li>
+        <li><a href="#top"><div><img src="img/estrella.png" class="ui-li-icon"></div>Top 8</a></li>
+        <li><a href="#noticias"><div><img src="img/new.png" class="ui-li-icon"></div>Noticias</a></li>
+        <li><a href="#social"><div><img src="img/social.png" class="ui-li-icon"></div>Social</a></li>
+      </ul>
+    
+    </div>
+  </div>
+</div>
+<div data-role="page" id="social" style="background-image: url('img/fondo.png'); background-attachment: fixed; background-repeat: repeat;" data-theme="a">
+  <div data-role="header" data-position="fixed">
+   <a href="#home" data-direction="reverse" data-role="button" data-icon="back" data-iconpos="notext" data-transition="flip">Button</a>
+    <h1>Redes sociales</h1>
+  </div>
+  <div data-role="content">Contenido</div>
+  <div data-role="footer" data-position="fixed">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#peliculas"><div><img src="img/movie.png" class="ui-li-icon"></div>Trailers</a></li>
+        <li><a href="#calendario"><div><img src="img/calendario.png" class="ui-li-icon"></div>Calendario</a></li>
+        <li><a href="#top"><div><img src="img/estrella.png" class="ui-li-icon"></div>Top 8</a></li>
+        <li><a href="#noticias"><div><img src="img/new.png" class="ui-li-icon"></div>Noticias</a></li>
+        <li><a href="#social"><div><img src="img/social.png" class="ui-li-icon"></div>Social</a></li>
+      </ul>
+    
+    </div>
+  </div>
+</div>
+
+
+
+
+</body>
+</html>
